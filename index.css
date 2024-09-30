@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../../Desktop/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    color:white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: wheat;
+}
+
+.Introduction {
+    padding: 10px;
+    text-align: left;
+    
+}
+
+.Introduction img {
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.bio {
+    padding: 20px;
+    font-size: 18px;
+    font-variant: small-caps;
+    font-weight:bold;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skills {
+    padding: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+
+.projects {
+    padding: 20px;
+    
+}
+
+.project-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.project {
+    margin: 20px;
+    width: 30%;
+}
+
+.project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project h3 {
+    font-size: 18px;
+    font-variant: small-caps;
+    margin-top: 10px;
+    background-color:darkgrey;
+}
+
+.contact {
+    padding: 20px;
+}
